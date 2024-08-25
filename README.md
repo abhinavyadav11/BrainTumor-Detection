@@ -65,7 +65,9 @@ else:
 If you want to train the model from scratch, use the following command:
 
 python train.py --data_dir path_to_dataset --epochs 50
-Model Download
+
+
+# Model Download
 
 
 You can download the pre-trained model from the following link:
