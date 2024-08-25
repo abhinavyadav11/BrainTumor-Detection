@@ -26,12 +26,12 @@ The dataset used for training consists of labeled MRI images, categorized into t
 
 Tumor
 No Tumor
-The images were preprocessed to a uniform size of 128x128 pixels and normalized before being fed into the model.
+The images were preprocessed to a uniform size of 224x224 pixels and normalized before being fed into the model.
 
 # Installation
 To use this model, clone the repository and install the required dependencies:
 
-git clone https://github.com/yourusername/brain-tumor-detection.git
+git clone https://github.com/abhinavyadav11/BrainTumor-Detection.git
 cd brain-tumor-detection
 pip install -r requirements.txt
 Usage
