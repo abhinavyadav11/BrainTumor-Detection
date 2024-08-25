@@ -66,6 +66,8 @@ If you want to train the model from scratch, use the following command:
 
 python train.py --data_dir path_to_dataset --epochs 50
 Model Download
+
+
 You can download the pre-trained model from the following link:
 
 https://www.dropbox.com/scl/fi/hu09c1uvkhwtssa51ko8y/BTDetectionOptimized-88.h5?rlkey=6a6g4xbzf4pzybewgn58vpbaq&st=lkqpr8jt&dl=0
