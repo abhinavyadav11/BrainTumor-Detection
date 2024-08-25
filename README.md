@@ -1,16 +1,7 @@
 # Brain Tumor Detection Model
 This repository contains a deep learning model designed to detect brain tumors from MRI images. The model has been trained on a dataset of labeled MRI scans and is capable of classifying images as either containing a tumor or not. This project is aimed at helping in the early diagnosis and treatment of brain tumors.
 
-# Table of Contents
-Overview
-Model Architecture
-Dataset
-Installation
-Usage
-Model Download
-Results
-Contributing
-License
+
 # Overview
 Brain tumors are abnormal growths in the brain that can be life-threatening. Early detection of brain tumors is crucial for successful treatment. This model leverages a Convolutional Neural Network (CNN) to classify MRI images as either having a tumor or not. The model is trained using Keras and TensorFlow.
 
