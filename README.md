@@ -60,10 +60,6 @@ if predicted_class == 1:
     print("Prediction: Tumor")
 else:
     print("Prediction: No Tumor")
-#  Training the Model
-If you want to train the model from scratch, use the following command:
-
-python train.py --data_dir path_to_dataset --epochs 50
 
 
 
@@ -73,7 +69,7 @@ The model has achieved the following metrics on the test set:
 Accuracy: 94% 
 Precision: 93%
 Recall: 95%
-F1-Score: 94% /
+F1-Score: 94% 
 These results demonstrate the model's ability to accurately detect brain tumors from MRI images.
 
 # Contributing
