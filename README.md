@@ -47,8 +47,15 @@ model = load_model('path_to_your_model.h5')
 
 # Preprocess the image
 img = image.load_img('path_to_image.jpg', target_size=(128, 128))
+
+
 img_array = image.img_to_array(img)
+
+
 img_array = np.expand_dims(img_array, axis=0)
+
+
+
 img_array /= 255.0
 
 # Make predictions
@@ -66,10 +73,11 @@ else:
 # Results
 The model has achieved the following metrics on the test set:
 
-Accuracy: 94% 
-Precision: 93%
-Recall: 95%
-F1-Score: 94% 
+
+- Accuracy: 94% 
+- Precision: 93%
+- Recall: 95%
+- F1-Score: 94% 
 These results demonstrate the model's ability to accurately detect brain tumors from MRI images.
 
 # Contributing
